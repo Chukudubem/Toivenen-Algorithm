@@ -8,6 +8,9 @@ from itertools import combinations
 
 input_file = sys.argv[1]
 with open(input_file, "r") as f:
+    '''
+    Read input file
+    '''
     data = f.readlines()    
 
 def get_parameters(data):
